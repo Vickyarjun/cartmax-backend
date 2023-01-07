@@ -2,6 +2,7 @@ import express from 'express';
 import data from '../data.js';
 import Product from '../models/productModel.js';
 import User from '../models/userModel.js';
+import {} from 'dotenv/config';
 
 const seedRouter = express.Router();
 
