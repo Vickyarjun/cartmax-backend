@@ -9,15 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.js"
+      "dest": "backend/index.js"
     }
   ]
-}
-
-{
-  "rewrites": [
-    { "source": "/(.*)",
-      "destination": "/"
-  }
-]
 }
