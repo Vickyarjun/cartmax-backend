@@ -8,7 +8,6 @@
     "node": "14.x"
   },
   "scripts": {
-    "build": "npm start",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
